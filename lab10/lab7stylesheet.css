@@ -18,7 +18,7 @@ body{background-color:#C89595;
     
     table{color: #DDBEBE}
     
-    nav a {background-color: #1e1236;}
+    nav  {background-color: #1e1236;}
     nav a:hover{background-color: #A2416B;}
     nav {padding: 10px;
         margin-bottom: 30px;}
@@ -56,4 +56,14 @@ body{background-color:#C89595;
         flex: 2;
     }
     
-    
+    header .headerimg {max-width: 100%;}
+
+    .everything {
+        flex-wrap: wrap;
+    }
+   
+    @media only screen and (max-width: 600px) {
+        nav a{width: 100%;
+            display:block;
+            margin-bottom: 5px;}
+        nav span{display: none;}}
