@@ -1,4 +1,4 @@
-body{background-color:#b16868;
+body{background-color:#a04747;
     font-family: Verdana, Geneva, Tahoma, sans-serif;}
     p{color: #f6eeee}
     
@@ -16,7 +16,7 @@ body{background-color:#b16868;
     a:hover {color: #FEFBF3} 
     a:hover {text-decoration-style:wavy}
     
-    table{color: #DDBEBE}
+    table{color: #f6eeee}
     
     nav  {background-color: #1e1236;}
     nav a:hover{background-color: #A2416B;}
@@ -50,7 +50,7 @@ body{background-color:#b16868;
     .other{display:flex}
     
     aside {
-        background-color:#DDBEBE; border-radius: 1em; margin: 7px;
+        background-color:#f6eeee; border-radius: 1em; margin: 7px;
         padding: 15px;
         padding-top: 3px;
         flex: 2;
