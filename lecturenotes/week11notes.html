@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessibility</title>
+    <style>
+        /* skip to content is 4 things
+        1. html link that says skip to content
+        2. anchor for that link
+        3. style in css with position absolute and left to make it  dissapear
+        4. bring it back by changing left value - focus pseudo */
+        #skip {
+            position: absolute; /*relative to paretn container*/
+            left: -999px; /*move it off the page, its dissapearing but still there just cant see*/
+            background-color: lightpink;
+        }
+        #skip:focus {
+            left: 10px; /* move our link back on screen*/
+        }
+    </style>
+</head>
+<body>
+    <!-- skip to content is an anchor link, # specifies where we are going to skip to on the page-->
+    <a id="skip" href="#maincontent">skip to content</a>
+    <!-- tabeindex is a new attribute that says what order elements are
+    in when using tab key to surf-->
+    <a href="bio.html" tabindex="3">home</a>
+    <a href="about.html" tabeindex="2">about</a>
+    <a href="contact.html" tabindex="1">contact</a>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <a id="maincontent"></a> <!-- this is an anchor-->
+    <p>this is where our main page content is. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+</body>
+</html>

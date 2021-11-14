@@ -1,0 +1,78 @@
+body{background-color:#C89595;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;}
+    p{color: #6C4A4A}
+    
+    h1{color:#EDEDED}
+    h2{color:#EDEDED}
+    h3{color:#EDEDED}
+    p{color:#eccdda}
+
+
+    
+    ul{color:#DDBEBE}
+    
+    a:link {color:#9A9483}
+    a:visited {color: #A2416B}
+    a:hover {color: #FEFBF3} 
+    a:hover {text-decoration-style:wavy}
+    
+    table{color: #DDBEBE}
+    
+    nav  {background-color: #1e1236;}
+    nav a:hover{background-color: #A2416B;}
+    nav {padding: 10px;
+        margin-bottom: 30px;}
+
+
+
+
+    h1, h2 {text-align: center;}
+    
+    .icons {
+        display: flex; 
+        flex: 1;
+        flex-basis: 70%;
+     }
+     .parentflex {
+         display:flex;
+     }
+     .flex2 {
+         display: flex;
+         justify-content: flex-end;
+         padding: 5px;
+         padding-top: 3px;
+     }
+
+    .icons img {width:100px;
+    margin-left: 10px;
+    padding: 10px;}
+
+    .other{display:flex}
+    
+    aside {
+        background-color:#DDBEBE; border-radius: 1em; margin: 7px;
+        padding: 15px;
+        padding-top: 3px;
+        flex: 2;
+    }
+    
+    header .headerimg {max-width: 100%;}
+
+    .everything {
+        flex-wrap: wrap;
+    }
+   
+    @media only screen and (max-width: 600px) {
+        nav a{width: 100%;
+            display:block;
+            margin-bottom: 5px;}
+        nav span{display: none;}}
+
+        #skip {
+            position: absolute; /*relative to paretn container*/
+            left: -999px; /*move it off the page, its dissapearing but still there just cant see*/
+            background-color: lightpink;
+        }
+        #skip:focus {
+            left: 10px; /* move our link back on screen*/
+        }
