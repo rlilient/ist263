@@ -76,3 +76,10 @@ body{background-color:#753e3e;
         #skip:focus {
             left: 10px; /* move our link back on screen*/
         }
+
+
+        .everything {color:#753e3e}
+        .second {color:#753e3e}
+        .first {color:#753e3e}
+        .dark .dark2 .dark3 {color:#753e3e}
+        .chat {color: #753e3e}
