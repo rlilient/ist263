@@ -1,15 +1,15 @@
-body{background-color:#C89595;
+body{background-color:#b16868;
     font-family: Verdana, Geneva, Tahoma, sans-serif;}
-    p{color: #6C4A4A}
+    p{color: #f6eeee}
     
-    h1{color:#EDEDED}
-    h2{color:#EDEDED}
-    h3{color:#EDEDED}
-    p{color:#eccdda}
+    h1{color: #f6eeee}
+    h2{color:#f6eeee}
+    h3{color:#f6eeee}
+    p{color:#f6eeee}
+
+    ul{color:#f6eeee}
 
 
-    
-    ul{color:#DDBEBE}
     
     a:link {color:#9A9483}
     a:visited {color: #A2416B}
