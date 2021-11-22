@@ -1,0 +1,270 @@
+nav {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color:#405357;
+}
+nav a:hover{background-color: #ede0c2;}
+ul {
+    color:#f7f2e8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a:visited {
+    color:#f7f2e8;
+}
+footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+    margin-top: 25px;
+    color:#20292b;
+}
+/** FIRST PAGE **/
+#page1head {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 3px;
+    color:#ede0c2;
+    background-color:#405357;
+    font-size: 50px;
+    text-align: center;
+}
+
+#bodyhome {
+    background-color:#a6d5e0;
+}
+
+
+.colorpal {
+    display:flex;
+    background-color:#ede0c2;
+    padding: 25px;
+    border-radius: 3em;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+#y2k {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#405357;
+    padding-right: 9px;
+    text-align: center;
+}
+
+.firsthead {
+    display:flex;
+    background-color:#ede0c2;
+    padding: 25px;
+    border-radius: 3em;
+    margin-bottom: 30px;
+}
+
+#p1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#405357;
+    padding-right: 9px;
+    text-align: center; 
+}
+
+#p2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#405357;
+    padding-right: 9px;
+    text-align: center;
+}
+/** FIRST PAGE **/
+
+
+
+/** SECOND PAGE **/
+body {
+    background-color:#f7f2e8;
+}
+
+#head1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color:#405357;
+}
+
+h3 {
+    font-family:Snell Roundhand, cursive;
+    color:#f7f2e8;
+}
+
+#tops {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1em;
+    color:#3446eb;
+    text-align: left;
+    margin-top: 3em;
+}
+.tp {
+    display: flex;
+    background-color:#3446eb ;
+    padding: 25px;
+    border-radius: 3em;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+
+#pants{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1em;
+    color:#a3a324;
+    text-align: left;
+    margin-top: 3em;
+}
+.pt {
+    display: flex;
+    background-color: #a3a324 ;
+    padding: 25px;
+    border-radius: 3em;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+
+#dress {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1em;
+    color:#e3652b;
+    text-align: left;
+    margin-top: 3em;
+}
+
+.dr {
+    display: flex;
+    background-color: #e3652b ;
+    padding: 25px;
+    border-radius: 3em;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+
+#shoes {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1em;
+    color:#c41f8d;
+    text-align: left;
+    margin-top: 3em;
+}
+
+.sh {
+    display: flex;
+    background-color: #c41f8d ;
+    padding: 25px;
+    border-radius: 3em;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+
+/** SECOND PAGE **/
+
+/** THIRD PAGE **/
+#fest {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1em;
+    color:#5f21c2;
+    text-align: left;
+    margin-top: 3em;
+}
+
+.ft {
+    display: flex;
+    background-color: #5f21c2 ;
+    padding: 25px;
+    border-radius: 3em;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+
+#ath {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1em;
+    color:#cc2366;
+    text-align: left;
+    margin-top: 3em;
+}
+
+.at {
+    display: flex;
+    background-color: #cc2366 ;
+    padding: 25px;
+    border-radius: 3em;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+
+#set {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1em;
+    color:#e88c13;
+    text-align: left;
+    margin-top: 3em;
+}
+
+.st {
+    display: flex;
+    background-color: #e88c13 ;
+    padding: 25px;
+    border-radius: 3em;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+
+#swimsuit {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1em;
+    color:#1d38d1;
+    text-align: left;
+    margin-top: 3em;
+}
+
+.sw {
+    display: flex;
+    background-color: #1d38d1 ;
+    padding: 25px;
+    border-radius: 3em;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+
+#jewelery {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1em;
+    color:#1db543;
+    text-align: left;
+    margin-top: 3em;
+}
+
+.jw {
+    display: flex;
+    background-color: #1db543 ;
+    padding: 25px;
+    border-radius: 3em;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+
+#basics {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1em;
+    color:#902cc9;
+    text-align: left;
+    margin-top: 3em;
+}
+
+.bs {
+    display: flex;
+    background-color: #902cc9 ;
+    padding: 25px;
+    border-radius: 3em;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+
+/** THIRD PAGE **/
+
+#head2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color:#405357;
+}
