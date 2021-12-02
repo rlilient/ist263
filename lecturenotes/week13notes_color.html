@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>color picker</title>
+    <script>
+        function changebgColor () {
+            document.getElementById("pagecolor").style.backgroundColor = document.getElementById("cp").value;
+        }
+        /*locate the place u want to change the color,
+        get the value of the color picker and set body to it*/
+    </script>
+</head>
+<body id="pagecolor">
+    <form>
+        <input type="color" id="cp" onchange="changebgColor();">
+        <!-- on change happens everytime a form value changes-->
+    </form>
+</body>
+</html>
