@@ -1,0 +1,87 @@
+body{background-color:#753e3e;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;}
+    p{color: #f6eeee}
+    
+    h1{color: #f6eeee}
+    h2{color:#f6eeee}
+    h3{color:#f6eeee}
+    p{color:#f6eeee}
+
+    ul{color:#f6eeee}
+
+
+    
+    a:link {color:#9A9483}
+    a:visited {color: #A2416B}
+    a:hover {color: #FEFBF3} 
+    a:hover {text-decoration-style:wavy}
+    
+    table{color: #f6eeee}
+    
+    nav  {background-color: #1e1236;}
+    nav a:hover{background-color: #A2416B;}
+    nav {padding: 10px;
+        margin-bottom: 30px;}
+
+
+    h1, h2 {
+        font-family: 'Nanum Gothic', sans-serif;
+    }
+
+    h1, h2 {text-align: center;}
+    
+    .icons {
+        display: flex; 
+        flex: 1;
+        flex-basis: 70%;
+     }
+     .parentflex {
+         display:flex;
+     }
+     .flex2 {
+         display: flex;
+         justify-content: flex-end;
+         padding: 5px;
+         padding-top: 3px;
+     }
+
+    .icons img {width:100px;
+    margin-left: 10px;
+    padding: 10px;}
+
+    .other{display:flex}
+    
+    aside {
+        background-color:#f6eeee; border-radius: 1em; margin: 7px;
+        padding: 15px;
+        padding-top: 3px;
+        flex: 2;
+    }
+    
+    header .headerimg {max-width: 100%;}
+
+    .everything {
+        flex-wrap: wrap;
+    }
+   
+    @media only screen and (max-width: 600px) {
+        nav a{width: 100%;
+            display:block;
+            margin-bottom: 5px;}
+        nav span{display: none;}}
+
+        #skip {
+            position: absolute; /*relative to paretn container*/
+            left: -999px; /*move it off the page, its dissapearing but still there just cant see*/
+            background-color: lightpink;
+        }
+        #skip:focus {
+            left: 10px; /* move our link back on screen*/
+        }
+
+
+        .everything {color:#753e3e}
+        .second {color:#753e3e}
+        .first {color:#753e3e}
+        .dark .dark2 .dark3 {color:#753e3e}
+        .chat {color: #753e3e}
