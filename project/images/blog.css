@@ -9,14 +9,22 @@ ul {
     color:#f7f2e8;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-/**
-a:visited {
-    color:#f7f2e8;
-}**/
+
 a {
     color:#f7f2e8; 
 }
-
+a:link {
+    color:#f7f2e8; 
+}
+a:visited {
+    color:#f7f2e8; 
+}
+a:hover {
+    color:#f7f2e8; 
+}
+a:active {
+    color:#f7f2e8; 
+}
 
 footer {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
