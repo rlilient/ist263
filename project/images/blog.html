@@ -2,20 +2,70 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>RachaelsCloset</title>
         <link rel="stylesheet" href="blog.css">
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+        
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                if (n > slides.length) {slideIndex = 1}
+                if (n < 1) {slideIndex = slides.length}
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+            }
+            var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}
+            slides[slideIndex-1].style.display = "block";
+            setTimeout(showSlides, 4000); 
+            }
+
+            function hideImage() {
+                document.getElementById('firstImage').style.display='none'
+            }
+        </script>
     </head>
 
     <body id="bodyhome">
         <nav>
-            <a href="blog.html">Home</a>
-            <a href="secondpage.html">Fashion Staples</a>
-            <a href="thirdpage.html">Fun Fits & Accessories</a>
+            <a href="blog.html"> Home |</a>
+            <a href="secondpage.html"> Fashion Staples |</a>
+            <a href="thirdpage.html"> Fun Fits & Accessories </a>
         </nav> 
 
 <header>
-        <img src="siteist263.png" alt="fashion header"> <br>
+    <div class="headerimage">
+        <img class="headerimage" src="siteist263.png" alt="fashion header" class="header1"> 
+    </div>
 </header>
 
 <main>
@@ -31,18 +81,36 @@
             I find that sometimes I am looking for a specific item and know all these sites that I just get overwhelmed and go blank on where I should be looking. To solve this issue that I and many of my friends have, I decided to categorize them and put them all in one place so next time I need a new dress I know exactly the stores I should be looking at. 
         </p>
     </div>
-        
-        <img src="magcover.jpg" alt="magazine cover"> 
-        <img src="catwalk.jpg" alt="catwalk"> 
-        <img src="catwalk2.jpg" alt="catwalk"> 
+    
+    <div class="slideshow">
+        <div id="firstImage"> 
+            <img src="fashionsketch.png" alt="outfit sketches" style="width: 50%;" id="firstImage">
+        </div>
+        <div class="mySlides fade">
+            <img src="magcover.jpg" alt="magazine cover" style="width: 30%;" class="img1"> 
+        </div>
+        <div class="mySlides fade">
+            <img src="catwalk.png" alt="pink dress on catwalk" style="width: 30%;" class="img2"> 
+        </div>
+        <div class="mySlides fade">
+            <img src="catwalk2.jpg" alt="multiple girls on catwalk" style="width: 30%;" class="img2"> 
+        </div>
+    </div>
+
+    <div style="text-align: center;">
+        <span class="dot" onclick="currentSlide(1); hideImage();"></span>
+        <span class="dot" onclick="currentSlide(2); hideImage();"></span>
+        <span class="dot" onclick="currentSlide(3); hideImage();"></span>
+    </div>
 
     <div class="colorpal">
         <p id="y2k">
             Before we get into the other pages holding all my favorite stores, lets talk about trends. These past couple of years the fashion industry has been getting more creative than ever. The main goal while analyzing trends is to look at it globally and interpret it from that. What’s staying and what’s going? Color-wise brown has been super popular, and its definitely staying for the fall. Neutrals will always be in, it’s a matter of how it’s styled and accessorized. Another color I see going to be super popular this fall and winter is orange. From looking at recent catwalks and fashion shows, different shades or orange has been all over from Gucci to Prada, making this fall and winter a little less grey. 
             I have most excited for Y2K fashion coming back, specifically low rise, bright patterns and fun cropped tees from icons Paris Hilton and Britney Spears. Low rise jeans and track suit pants will be staying for a while, and wether trendy or not still, I plan to keep wearing them either way. Sometimes it’s not all about “what’s in” but what flatters your body type most and makes you feel good. This compilation of sites I put together has everything from super trendy pieces to staples everyone should have in their closet at all different price ranges.            
         </p>
-
-        <img src="colorpalette.png" alt="fall/winter color palette"> <br>
+        <div class="cpal">        
+            <img src="colorpalette.png" alt="fall/winter color palette"> <br>
+        </div>
     </div>
 </main>
 
