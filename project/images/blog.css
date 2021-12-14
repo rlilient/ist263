@@ -195,7 +195,6 @@ h3 {
     color:#3446eb;
     text-align: left;
     margin-top: 3em;
-    -webkit-text-stroke: 1px #e98335;
 }
 .tp {
     display: flex;
@@ -211,14 +210,13 @@ h3 {
 #pants{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: 1em;
-    color:#a3a324;
+    color:#91910c;
     text-align: left;
     margin-top: 3em;
-    -webkit-text-stroke: 1px #7223af;
 }
 .pt {
     display: flex;
-    background-color: #a3a324 ;
+    background-color: #91910c ;
     padding: 25px;
     border-radius: 3em;
     margin-bottom: 30px;
@@ -230,15 +228,14 @@ h3 {
 #dress {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: 1em;
-    color:#e3652b;
+    color:#e35412;
     text-align: left;
     margin-top: 3em;
-    -webkit-text-stroke: 1px #dcc926;
 }
 
 .dr {
     display: flex;
-    background-color: #e3652b ;
+    background-color: #e35412 ;
     padding: 25px;
     border-radius: 3em;
     margin-bottom: 30px;
@@ -253,7 +250,6 @@ h3 {
     color:#c41f8d;
     text-align: left;
     margin-top: 3em;
-    -webkit-text-stroke: 1px #37bd76;
 }
 
 .sh {
@@ -276,7 +272,6 @@ h3 {
     color:#5f21c2;
     text-align: left;
     margin-top: 3em;
-    -webkit-text-stroke: 1px #cee935;
 }
 
 .ft {
@@ -296,7 +291,6 @@ h3 {
     color:#cc2366;
     text-align: left;
     margin-top: 3em;
-    -webkit-text-stroke: 1px #3952de;
 }
 
 .at {
@@ -313,15 +307,14 @@ h3 {
 #set {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: 1em;
-    color:#e88c13;
+    color:#e07f00;
     text-align: left;
     margin-top: 3em;
-    -webkit-text-stroke: 1px #48ce6c;
 }
 
 .st {
     display: flex;
-    background-color: #e88c13 ;
+    background-color: #e07f00 ;
     padding: 25px;
     border-radius: 3em;
     margin-bottom: 30px;
@@ -336,7 +329,6 @@ h3 {
     color:#1d38d1;
     text-align: left;
     margin-top: 3em;
-    -webkit-text-stroke: 1px #f0911e;
 }
 
 .sw {
@@ -353,15 +345,14 @@ h3 {
 #jewelery {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: 1em;
-    color:#1db543;
+    color:#00a629;
     text-align: left;
     margin-top: 3em;
-    -webkit-text-stroke: 1px #c89feb;
 }
 
 .jw {
     display: flex;
-    background-color: #1db543 ;
+    background-color: #00a629 ;
     padding: 25px;
     border-radius: 3em;
     margin-bottom: 30px;
@@ -376,7 +367,6 @@ h3 {
     color:#902cc9;
     text-align: left;
     margin-top: 3em;
-    -webkit-text-stroke: 1px #de4c39;
 }
 
 .bs {
