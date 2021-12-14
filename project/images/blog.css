@@ -195,6 +195,7 @@ h3 {
     color:#3446eb;
     text-align: left;
     margin-top: 3em;
+    -webkit-text-stroke: 1px #e98335;
 }
 .tp {
     display: flex;
@@ -213,6 +214,7 @@ h3 {
     color:#a3a324;
     text-align: left;
     margin-top: 3em;
+    -webkit-text-stroke: 1px #7223af;
 }
 .pt {
     display: flex;
@@ -231,6 +233,7 @@ h3 {
     color:#e3652b;
     text-align: left;
     margin-top: 3em;
+    -webkit-text-stroke: 1px #dcc926;
 }
 
 .dr {
@@ -250,6 +253,7 @@ h3 {
     color:#c41f8d;
     text-align: left;
     margin-top: 3em;
+    -webkit-text-stroke: 1px #37bd76;
 }
 
 .sh {
@@ -272,6 +276,7 @@ h3 {
     color:#5f21c2;
     text-align: left;
     margin-top: 3em;
+    -webkit-text-stroke: 1px #cee935;
 }
 
 .ft {
@@ -291,6 +296,7 @@ h3 {
     color:#cc2366;
     text-align: left;
     margin-top: 3em;
+    -webkit-text-stroke: 1px #3952de;
 }
 
 .at {
@@ -310,6 +316,7 @@ h3 {
     color:#e88c13;
     text-align: left;
     margin-top: 3em;
+    -webkit-text-stroke: 1px #48ce6c;
 }
 
 .st {
@@ -329,6 +336,7 @@ h3 {
     color:#1d38d1;
     text-align: left;
     margin-top: 3em;
+    -webkit-text-stroke: 1px #f0911e;
 }
 
 .sw {
@@ -348,6 +356,7 @@ h3 {
     color:#1db543;
     text-align: left;
     margin-top: 3em;
+    -webkit-text-stroke: 1px #c89feb;
 }
 
 .jw {
@@ -367,6 +376,7 @@ h3 {
     color:#902cc9;
     text-align: left;
     margin-top: 3em;
+    -webkit-text-stroke: 1px #de4c39;
 }
 
 .bs {
