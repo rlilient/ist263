@@ -210,13 +210,13 @@ h3 {
 #pants{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: 1em;
-    color:#91910c;
+    color:#707006;
     text-align: left;
     margin-top: 3em;
 }
 .pt {
     display: flex;
-    background-color: #91910c ;
+    background-color: #707006 ;
     padding: 25px;
     border-radius: 3em;
     margin-bottom: 30px;
@@ -228,14 +228,14 @@ h3 {
 #dress {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: 1em;
-    color:#e35412;
+    color:#ca4609;
     text-align: left;
     margin-top: 3em;
 }
 
 .dr {
     display: flex;
-    background-color: #e35412 ;
+    background-color: #ca4609 ;
     padding: 25px;
     border-radius: 3em;
     margin-bottom: 30px;
@@ -307,14 +307,14 @@ h3 {
 #set {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: 1em;
-    color:#e07f00;
+    color:#ff8800;
     text-align: left;
     margin-top: 3em;
 }
 
 .st {
     display: flex;
-    background-color: #e07f00 ;
+    background-color: #ff8800 ;
     padding: 25px;
     border-radius: 3em;
     margin-bottom: 30px;
@@ -345,14 +345,14 @@ h3 {
 #jewelery {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: 1em;
-    color:#00a629;
+    color:#0e812b;
     text-align: left;
     margin-top: 3em;
 }
 
 .jw {
     display: flex;
-    background-color: #00a629 ;
+    background-color: #0e812b ;
     padding: 25px;
     border-radius: 3em;
     margin-bottom: 30px;
