@@ -307,14 +307,14 @@ h3 {
 #set {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: 1em;
-    color:#ff8800;
+    color:#eb7500;
     text-align: left;
     margin-top: 3em;
 }
 
 .st {
     display: flex;
-    background-color: #ff8800 ;
+    background-color: #eb7500 ;
     padding: 25px;
     border-radius: 3em;
     margin-bottom: 30px;
